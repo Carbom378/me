@@ -1,8 +1,33 @@
- h1{
+ header{
+ 	background-color: #EADDCA;
+ 	text-align: center;
+ }
+
+ header h1{
  	font-size: 40px;
+ 	font-family: 'Lora', serif;
  	color: #5C4033;
+ }
+
+ header img{
+ 	border-radius: 170px;
+ 	border: 10px solid #C19A6B;
+ 	border-color: #C19A6B;
+ 	width: 300px
+
+ }
+
+ h2{
+ 	font-family: 'Playfair Display', serif;
+ 	font-size: 25px;
+ }
+
+ main{
+ 	max-width: 1000px;
+
  }
 
  html{
  	background-color: #D2B48C;
+ 	margin: 0;
  }
