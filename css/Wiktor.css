@@ -1,12 +1,15 @@
  header{
  	background-color: #EADDCA;
  	text-align: center;
+ 	padding-bottom: 20px;
+ 	margin: 0;
  }
 
  header h1{
  	font-size: 40px;
  	font-family: 'Lora', serif;
  	color: #5C4033;
+
  }
 
  header img{
@@ -17,6 +20,19 @@
 
  }
 
+ p, ul{
+ 	font-size: 20px;
+ }
+
+ a{
+ 	color: #36454F;
+ }
+
+ a:hover{
+ 	color: purple;
+ 	background-color: #C19A6B;
+ }
+
  h2{
  	font-family: 'Playfair Display', serif;
  	font-size: 25px;
@@ -24,7 +40,19 @@
 
  main{
  	max-width: 1000px;
+ 	margin: 0 auto;
+ 	padding: 10px 20px;
+ 	text-align: left;
 
+ }
+
+ .CV{
+ 	font-size: 8px;
+ 	color: black;
+ }
+
+ footer{
+ 	background-color: #C19A6B;
  }
 
  html{
